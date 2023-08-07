@@ -1,9 +1,9 @@
 # bookbot
 
-### About Bookbot
+## About Bookbot
 Bookbot is a Python CLI tool for parsing text from a file. It accepts a user input for a directory, and then proceeds to parse the text file, breaking down the amount of words, and the occurences of each letter found in the file. If the directory provided by the user is invalid, the user will be prompted to try again, up to a maximum of of three tries. If a valid path is not provided, the program will exit, alerting the user that the program is exiting. If a valid file type is not provided ('txt'), the program will not execute the file.
 
-### How to use Bookbot
+## How to use Bookbot
 
 - Clone the repository into your local
 - Create a directory within the root folder of `bookbot`.
