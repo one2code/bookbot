@@ -1,3 +1,5 @@
+import os
+
 def word_count(text):
     return len(text.split())
 
@@ -15,7 +17,11 @@ def letter_count(text):
     return letter_counts
 
 
-file_path = "./books/frankenstein.txt"
+directory_path = './books'
+
+for filename in os.listdir(directory_path):
+    if filename.endswith('.txt'):
+        file_path = os.path.join(directory_path, filename)
 
 with open(file_path) as f:
     file_contents = f.read()
